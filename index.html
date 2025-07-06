@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Help us improve our website</h1>
+    <p id="description">Complete this form to share your feedback</p>
+    <form id="survey-form">
+      <label id="name-label">Name
+        <input id="name" type="text" placeholder="Ex.: Jane Doe" required>
+      </label>
+      <label id="email-label">Email
+        <input id="email" type="email" placeholder="exemple@email.fr" required>
+      </label>
+      <label id="number-label">Age
+        <input id="number" type="number" min=18 max=120 placeholder="select your age">
+      </label>
+      <h2>How did your hear about us?</h2>
+      <select id="dropdown">
+        <option>Select an option</option>
+        <option>Social media</option>
+        <option>Google search</option>
+        <option>freeCodeCamp ads</option>
+      </select>
+      <h2>Would you recommand our website to a friend?</h2>
+      <label>
+        <input type="radio" name="option" value="Yes" checked>Yes
+      </label>
+      <label>
+        <input type="radio" name="option" value="No">No
+      </label>
+      <label>
+        <input type="radio" name="option" value="maybe">Maybe
+      </label>
+      <h2>What would you like to see improved ?</h2>
+      <label class="checkbox-options">
+        <input id="full-stack" type="checkbox" name="improvement" value="full-stack">
+        Full Stack Developer Curriculum
+      </label>
+      <label class="checkbox-options">
+        <input id="front-end" type="checkbox" name="improvement" value="front-end">
+        Front End Developer Curriculum
+      </label>
+      <label class="checkbox-options">
+        <input id="back-end" type="checkbox" name="improvement" value="back-end">
+        Back End Developer Curriculum
+      </label>
+      <h2>Give us more suggestions</h2>
+      <textarea id="more"></textarea>
+      <button id="submit" type="submit" value="Submit">Submit</button>
+    </form>
+  </body>
+</html>

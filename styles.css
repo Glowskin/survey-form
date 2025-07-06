@@ -1,0 +1,46 @@
+body {
+background: linear-gradient(135deg, #8CA9FF, #B9A5FF);
+font-family: Inter, Helvetica neue, Arial, sans-serif;
+}
+
+#name-label, #email-label, #number-label, form textarea {
+  display: block;
+  width : 100%;
+  margin-top: 20px;
+}
+
+form label, form input, form textarea {
+  margin-bottom: 15px;
+}
+
+
+h2 {
+  font-size: 18px;
+}
+
+.checkbox-options {
+  display: block;
+  margin-bottom: 8px;
+}
+#submit {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color:#7B61FF;
+  color:#fff;
+}
+
+#more {
+  height:150px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  resize: vertical;
+}
